@@ -367,8 +367,8 @@ plot(income.break["medincomeE"]) # the imagery of the map has shifted in relatio
 
 # eBird and Avonet
 ```{r loading in ebird and avonet data from files}
-# eBird api key: m0h35jpf0c41
-ebird.key <- ("m0h35jpf0c41")
+# first you need to obtain an API key from eBird and load it into your workspace
+ebird.key <- 'API key here'
 # cran release
 install.packages("auk")
 # Getting started with loading in the data
